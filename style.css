@@ -76,6 +76,7 @@ h6 {
 header {
   background-color: var(--prussian-blue);
   height: 25%;
+  position: relative;
 }
 
 #banner-img {
@@ -83,6 +84,13 @@ header {
   object-position: 50% 80%;
   height: 100%;
   width: 100%;
+}
+
+#head-shot {
+  float: right;
+  position: relative;
+  top: -225px;
+  width: 300px;
 }
 
 #nav {
