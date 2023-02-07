@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/matthew-stockinger/matthewstockinger.com/issues"
   },
-  "homepage": "https://github.com/matthew-stockinger/matthewstockinger.com#readme"
+  "homepage": "https://github.com/matthew-stockinger/matthewstockinger.com#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
 }
