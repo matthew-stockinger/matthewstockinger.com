@@ -77,6 +77,24 @@ body {
   background-color: var(--platinum);
 }
 
+/**** Utility Classes */
+.img-round {
+  border-radius: 100%;
+}
+
+.img-center {
+  margin: auto;
+}
+
+.padding {
+  padding: 1rem;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+/**** Header */
 header {
   background-color: var(--prussian-blue);
   height: 240px;
@@ -116,6 +134,12 @@ header {
   }
 }
 
+/**** Main Body */
+main {
+  margin: auto;
+  max-width: 1300px;
+}
+
 section {
   padding: 1rem 1.5rem;
 }
@@ -124,8 +148,20 @@ h1 {
   color: var(--prussian-blue);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.7rem;
   text-shadow: 1px 1px 6px var(--light-steel-blue);
+}
+
+@media only screen and (min-width: 370px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 445px) {
+  h1 {
+    font-size: 2.5rem;
+  }
 }
 
 hr {
@@ -148,10 +184,16 @@ p {
 a,
 a:visited {
   color: var(--prussian-blue);
-  text-decoration: none;
+  text-decoration: underline var(--light-steel-blue);
 }
 
 a:hover,
 a:active {
   color: var(--dogwood-rose);
+}
+
+/***** Recommendations */
+.flex-recommendations {
+  display: flex;
+  justify-content: flex-start;
 }
