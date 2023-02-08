@@ -14,6 +14,22 @@
   <body>
     <header>
       <img
+        srcset="
+          img/tetons.jpg?width=400   400w,
+          img/tetons.jpg?width=600   600w,
+          img/tetons.jpg?width=800   800w,
+          img/tetons.jpg?width=1000 1000w,
+          img/tetons.jpg?width=1600 1600w,
+          img/tetons.jpg            1920w
+        "
+        sizes="
+          (max-width: 400px) 100vw, 
+          (max-width: 600px) 100vw, 
+          (max-width: 800px) 100vw, 
+          (max-width: 1000px) 100vw,
+          (max-width: 1600px) 100vw,
+          100vw
+        "
         src="img/tetons.jpg"
         id="banner-img"
         alt="The Teton Mountain Range stretches under a clear sky, in front of Jenny Lake."
