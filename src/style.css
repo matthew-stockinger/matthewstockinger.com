@@ -144,6 +144,10 @@ section {
   padding: 1rem 1.5rem;
 }
 
+article {
+  margin: 2rem 0;
+}
+
 h1 {
   color: var(--prussian-blue);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -151,17 +155,21 @@ h1 {
   font-size: 1.7rem;
   text-shadow: 1px 1px 6px var(--light-steel-blue);
 }
-
 @media only screen and (min-width: 370px) {
   h1 {
     font-size: 2rem;
   }
 }
-
 @media only screen and (min-width: 445px) {
   h1 {
     font-size: 2.5rem;
   }
+}
+
+h2 {
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 hr {
@@ -169,7 +177,8 @@ hr {
   margin-bottom: 1rem;
 }
 
-p {
+p,
+li {
   color: var(--prussian-blue);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
