@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/matthew-stockinger/matthewstockinger.com#readme",
   "devDependencies": {
+    "@parcel/packager-raw-url": "^2.8.3",
+    "@parcel/transformer-webmanifest": "^2.8.3",
     "parcel": "^2.8.3",
     "sharp": "^0.31.3"
   }
