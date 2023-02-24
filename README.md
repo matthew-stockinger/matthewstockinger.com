@@ -7,3 +7,4 @@ Repo for my personal portfolio site.
 - HTML
 - CSS
 - Parcel.js
+- Git
